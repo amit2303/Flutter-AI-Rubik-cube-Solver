@@ -3,6 +3,7 @@ from rubikscubetracker import RubiksImage
 from rubik_solver import utils
 import numpy as np
 
+
 app = Flask(__name__)
 
 @app.route('/', methods = ['POST'])
